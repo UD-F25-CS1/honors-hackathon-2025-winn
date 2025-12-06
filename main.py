@@ -2,8 +2,6 @@ from bakery import assert_equal
 from drafter import *
 from dataclasses import dataclass
 
-from meta import *
-
 # hide_debug_information()
 # set_website_framed(False)
 set_website_title("Your Drafter Website")
@@ -27,3 +25,5 @@ def index(state: State) -> Page:
 
 
 start_server(State())
+
+#drawing si
